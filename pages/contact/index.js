@@ -149,7 +149,7 @@ export default function Contact() {
     <Meta
             title="Uptal - Matching remote developers with global startups"
             description="Hire verified remote developers from Uptal | Access future ready talent cloud and find developers with verified technical skills, matched in your timezone."
-            image="/home-page.png"
+            image="https://uptal.org/home-page.png"
         />
     <Navbartwo/>
     <div className="contact_header_section">

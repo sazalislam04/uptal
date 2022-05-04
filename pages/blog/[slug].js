@@ -158,7 +158,7 @@ export default function Post({ post, recentBlog }) {
         <Meta
             title="Uptal - Matching remote developers with global startups"
             description="Hire verified remote developers from Uptal | Access future ready talent cloud and find developers with verified technical skills, matched in your timezone."
-            image="https://uptal.org/home-page.png"
+            image="https://uptal.org/blog.png"
         />
         <div className=' details_banner'>
           <Row className="container mx-auto banner_row d-md-flex d-sm-flex justify-content-md-between justify-content-sm-between">
