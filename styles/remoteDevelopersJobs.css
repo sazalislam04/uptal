@@ -1,0 +1,140 @@
+.romote_content_colam{
+  background-color: white;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.remote_dev_scroll_div{
+    height: 100vh;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: white;
+    margin-top: 20px; 
+}
+.remote_icons_div{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 10px;
+}
+.remote_dev_grid_div{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 100px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.remote_side_icons_div{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;
+  padding-top: 15px;
+}
+.apply_btn_div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.remote_dev_content_section{
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.side_manu_title{
+    font-weight: 500;
+    cursor: pointer;
+    /* margin-top: 30px; */
+}
+.icons_text{
+  color: #525252;
+}
+.remote_apply_btn{
+  border-radius: 5px;
+  border: none;
+  background-color: #206ee9;
+  text-decoration: none;
+  padding: 15px 35px 15px 35px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+.remote_apply_btn:hover{
+  color: white;
+}
+.view_jobs_btn{
+  text-decoration: none;
+  color: #206ee9;
+  /* font-size: 22px; */
+}
+.view_jobs_btn:hover{
+  text-decoration: underline;
+  color: #206ee9;
+}
+.view_jobs_div{
+  text-align: center;
+  /* background-color: white; */
+  margin-bottom: 40px;
+}
+.remote_dev_mobile a{
+  text-decoration: none;
+  color: black;
+}
+.remote_dev_mobile:hover a{
+  text-decoration: none;
+  color: black;
+}
+.scroll_side_manu_div{
+  cursor: pointer;
+  padding: 25px 0px 25px 10px;
+}
+.scroll_side_manu_div:hover{
+  background-color: #f4f4f6;
+}
+.scroll_side_manu__color_div{
+  border-left: #206ee9 solid 6px;
+  padding: 25px 0px 25px 10px;
+
+  background-color: rgba(46,110,223,0.08);
+}
+.remote_dev_content_section_mobile{
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+.remote_dev_row{
+  background-color: #f4f4f6;
+  border-radius: 7px;
+}
+/* width */
+/* ::-webkit-scrollbar {
+  width: 7px;
+} */
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(170, 170, 170); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6b6b6b; 
+  }
+  .remote_dev_content_section_mobile{
+    display: none;
+  }
+  @media only screen and  (max-width: 868px) {
+    .remote_dev_content_section_mobile{
+      display: block;
+    }
+    .remote_dev_content-section{
+      display: none;
+    }
+  }

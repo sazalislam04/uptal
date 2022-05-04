@@ -1,0 +1,103 @@
+.sitemap_main_div{
+    width: 95%;
+    padding-bottom: 80px;
+}
+.sitemap_title{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+.sitemap_colamtitle{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+.sitemap_div{
+    padding-top: 60px;
+}
+.sitemap_career_div{
+    padding-top: 70px;
+}
+.sitemap_rightcolam_div{
+    padding-top: 40px;
+}
+.sitemap_home{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 40px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.sitemap_home:hover{
+    color: black;
+}
+.sitemap_linktext{
+    font-size: 18px;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    color: black;
+    line-height: 40px;
+}
+.sitemap_linktext:hover{
+    text-decoration: underline;
+    color: black;
+}
+.sitemap_colamtitle:hover{
+    text-decoration: underline;
+    color: black;
+}
+.sitemap_based_text{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 40px;
+}
+.sitemap_hire_title{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
+}
+.sitemap_hire_section{
+    padding-bottom: 80px;
+}
+.go_back_btn{
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.go_back_btn:hover{
+    text-decoration: underline;
+    color: black
+}
+
+@media only screen and (max-width: 1000px) {
+    .sitemap_main_div{
+        width: 100%;
+        padding-bottom: 80px;
+    }
+}

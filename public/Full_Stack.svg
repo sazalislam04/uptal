@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1852" data-name="Rectangle 1852" width="100" height="100" transform="translate(-15.891 15)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_5489" data-name="Mask Group 5489" transform="translate(15.891 -15)" clip-path="url(#clip-path)">
+    <g id="iOS_Swift" data-name="iOS Swift" transform="translate(-15.891 15)">
+      <rect id="Rectangle_1688" data-name="Rectangle 1688" width="100" height="100" fill="none"/>
+      <path id="Path_2548" data-name="Path 2548" d="M38.082,62.144a3.858,3.858,0,0,1-4.719,0L9.766,43.8a3.814,3.814,0,0,0-4.681,6.024L31.022,70.009a7.716,7.716,0,0,0,9.439,0L66.4,49.828a3.824,3.824,0,0,0,0-6.024l-.038-.038a3.8,3.8,0,0,0-4.681,0l-23.6,18.378ZM40.5,50.557,66.436,30.375a3.864,3.864,0,0,0,0-6.062L40.5,4.131a7.716,7.716,0,0,0-9.439,0L5.123,24.351a3.864,3.864,0,0,0,0,6.062L31.06,50.6A7.662,7.662,0,0,0,40.5,50.557Z" transform="translate(14.24 12.93)" fill="#41bfad"/>
+    </g>
+  </g>
+</svg>

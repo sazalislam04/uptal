@@ -1,0 +1,497 @@
+
+.getstarted_btn{
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00cc83;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    height: 45px;
+    width: 150px;
+    font-weight: 500;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.hire_remote_nav_btn{
+    padding-top: 30px;
+}
+.getstarted_btn:hover{
+    color: white;
+}
+.getstartright{
+    display: block;
+}
+.getstartleft{
+    display: none;
+}
+
+.right-nav-span:hover{
+    color: #515e72;
+
+}
+.right-nav-span {
+    display: inline-block;
+    position: relative;
+    color: #515e72;
+    font-size: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-right: 10px;
+  }
+  
+  .right-nav-span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .right-nav-span:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.anchor-text{
+    text-decoration: none;
+    color: #515e72;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.anchor-texttwo{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.anchor-text:hover {
+    color: black;
+}
+.anchor-texttwo:hover{
+    color: black;
+}
+.filter-container{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+    padding-top: 20px;
+    transition: 0.5s ease-in-out;
+}
+.navbar-row{ 
+    background-color: #00cc83;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+.navrow-text{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dropdowntext{
+    font-weight: 500;
+    font-size: 14px;
+    color: #515e72;
+}
+
+.offcanvas_container{
+    height: 40vh;
+}
+.offcangetstarted_btn{
+    border-radius: 5px;
+    border: none;
+    background-color: #00cc83;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    width: 93vw;
+    font-weight: 500;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    text-decoration: none;
+
+}
+.Applydev_btn{
+    border-radius: 5px;
+    border: solid 1px #00cc83;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    color: #00cc83;
+    padding: 10px 0px 10px 0px;
+    width: 93vw;
+    font-weight: 500;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.Login_btn{
+    border-radius: 5px;
+    border: solid 1px #00cc83;
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    color: #00cc83;
+    padding: 10px;
+    width: 93vw;
+    font-weight: 500;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.navtwo_logo{
+    cursor: pointer;
+    font-size: 34px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.navtwo_logo:hover{
+    color: #000000;
+}
+.canvas_img{
+    width: 120px;
+    height: 60px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.navtwo{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+}
+@media only screen and (min-width: 200px)  and (max-width: 429px) {
+    .website_title{
+        margin-left: 0px;
+        margin-right: 30px;
+    }
+    .home_blog_btn{
+        margin-left: 10px;
+    }
+    .getstartright{
+        display: none;
+    }
+    .getstartleft{
+        display: block;
+    }
+    .filter-container{
+        display: inline-block;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .horizontal-line{
+        
+        display: none;
+    }
+    .nav-itmes{
+        display: none;
+    }
+    .offcangetstarted_btn{
+        border-radius: 5px;
+        border: none;
+        background-color: #00cc83;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        height: 40px;
+        width: 93vw;
+        font-weight: 500;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+    }
+    .Applydev_btn{
+        border-radius: 5px;
+        border: solid 1px #00cc83;;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        color: #00cc83;
+        height: 40px;
+        width: 93vw;
+        font-weight: 500;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        margin-top: 10px;
+    }
+    .Login_btn{
+        border-radius: 5px;
+        border: solid 1px #00cc83;;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        color: #00cc83;
+        height: 40px;
+        width: 93vw;
+        font-weight: 500;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        margin-top: 10px;
+    }
+  }
+@media only screen and (min-width: 430px)  and (max-width: 575px) {
+    .getstartright{
+        display: none;
+    }
+    .getstartleft{
+        display: block;
+    }
+    .filter-container{
+        display: inline-block;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .horizontal-line{
+        
+        display: none;
+    }
+    .nav-itmes{
+        display: none;
+    }
+    .offcangetstarted_btn{
+        border-radius: 5px;
+        border: none;
+        background-color: #00cc83;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        height: 40px;
+        width: 95vw;
+        font-weight: 500;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+    }
+    .Applydev_btn{
+        border-radius: 5px;
+        border: solid 1px #00cc83;;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        color: #00cc83;
+        height: 40px;
+        width: 95vw;
+        font-weight: 500;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        margin-top: 10px;
+    }
+    .Login_btn{
+        border-radius: 5px;
+        border: solid 1px #00cc83;;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        color: #00cc83;
+        height: 40px;
+        width: 95vw;
+        font-weight: 500;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        margin-top: 10px;
+    }
+  }
+  
+@media only screen and (min-width: 576px) and (max-width: 787px) {
+    .getstartright{
+        display: none;
+    }
+    .getstartleft{
+        display: block;
+    }
+    .filter-container{
+        display: inline-block;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .horizontal-line{
+        
+        display: none;
+    }
+    .nav-itmes{
+        display: none;
+    }
+    .offcangetstarted_btn{
+        border-radius: 5px;
+        border: none;
+        background-color: #00cc83;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        height: 40px;
+        width: 95vw;
+        font-weight: 500;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+    }
+    .Applydev_btn{
+        border-radius: 5px;
+        border: solid 1px #00cc83;;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        color: #00cc83;
+        height: 40px;
+        width: 95vw;
+        font-weight: 500;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        margin-top: 10px;
+    }
+    .Login_btn{
+        border-radius: 5px;
+        border: solid 1px #00cc83;;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        color: #00cc83;
+        height: 40px;
+        width: 95vw;
+        font-weight: 500;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        margin-top: 10px;
+    }
+  }
+@media only screen and (min-width: 788px) and (max-width:991px) {
+    .getstartright{
+        display: none;
+    }
+    .getstartleft{
+        display: block;
+    }
+    .filter-container{
+        display: inline-block;
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .horizontal-line{
+        
+        display: none;
+    }
+    .nav-itmes{
+        display: none;
+    }
+    .offcangetstarted_btn{
+        border-radius: 5px;
+        border: none;
+        background-color: #00cc83;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        height: 40px;
+        width: 95vw;
+        font-weight: 500;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+    }
+    .Applydev_btn{
+        border-radius: 5px;
+        border: solid 1px #00cc83;;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        color: #00cc83;
+        height: 40px;
+        width: 95vw;
+        font-weight: 500;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        margin-top: 10px;
+    }
+    .Login_btn{
+        border-radius: 5px;
+        border: solid 1px #00cc83;;
+        background-color: white;
+        text-align: center;
+        font-size: 15px;
+        color: #00cc83;
+        height: 40px;
+        width: 95vw;
+        font-weight: 500;
+        font-family: 'Charm', cursive;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        display: block;
+        margin-top: 10px;
+    }
+  }

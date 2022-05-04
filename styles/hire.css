@@ -1,0 +1,597 @@
+.hire_details_banner {
+  background-color: #f4f4f6;
+  border-radius: 15px;
+
+}
+
+.hire_details_mobile_banner_row {
+  background-color: #f4f4f6;
+  border-radius: 15px;
+}
+
+.hire_details_banner_mobile {
+  display: none;
+}
+
+.hire_description_container {
+  background-color: #f4f4f6;
+  border-radius: 10px;
+}
+
+.hire_table_content {
+  margin-left: 20px;
+  position: sticky;
+  top: 100px;
+  background-color: #f4f4f6;
+  margin-top: 50px;
+}
+
+.hire_expact_section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hire_expect_btn {
+  height: 48px;
+  width: 280px;
+  border-radius: 5px;
+  border: none;
+  background-color: #00cc83;
+  color: white;
+  font-weight: 600;
+}
+
+.hire_blog_inputs {
+  height: 47px;
+  width: 280px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 0.5px solid rgb(182, 182, 182);
+  padding-left: 10px;
+  margin-top: 4.5px;
+}
+
+.hire_blog_developer_btn {
+  height: 46.5px;
+  width: 280px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border: none;
+  background-color: #00cc83;
+  color: white;
+  font-weight: 600;
+}
+
+.hire_title {
+  line-height: 48px;
+  margin-left: 25px;
+}
+
+.search_div {
+  margin-left: 25px;
+}
+
+.hire_tech_img {
+  width: 28px;
+  height: 28px;
+
+}
+
+.based_text {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.technology_text {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 20.5px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  color: black;
+}
+
+.technology_text:hover {
+  color: black;
+}
+
+.technology_div {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-row-gap: 30px;
+}
+
+.technology_colam {
+  box-shadow: 1px 1px 1px 1px rgba(141, 141, 141, 0.15),
+    1px 1px 1px 1px rgba(170, 169, 169, 0.15),
+    1px 1px 1px 2px rgba(158, 158, 158, 0.15),
+    1px 1px 1px 2px rgba(136, 136, 136, 0.15);
+  width: 90%;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-left: 7px;
+  padding-top: 5px;
+}
+
+.technology_section_mobile {
+  display: none;
+  /* padding-top: 20px; */
+}
+
+.hire_arrow_icon {
+  color: rgb(112, 111, 111);
+  display: none;
+}
+
+.technology_colam:hover{
+  background-color: #85f3cd;;
+}
+
+.technology_section {
+  padding-top: 70px;
+}
+
+.Based_role_section {
+  padding-top: 70px;
+}
+
+.Based_role_div {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 25px;
+  grid-row-gap: 30px;
+}
+
+.based_role_colam {
+  box-shadow: 1px 1px 1px 1px rgba(141, 141, 141, 0.15),
+    1px 1px 1px 1px rgba(170, 169, 169, 0.15),
+    1px 1px 1px 2px rgba(158, 158, 158, 0.15),
+    1px 1px 1px 2px rgba(136, 136, 136, 0.15);
+  border-radius: 10px;
+  cursor: pointer;
+  padding-left: 7px;
+  padding-top: 5px;
+}
+
+.based_role_text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.based_role_colam:hover .hire_arrow_icon {
+  display: inline;
+}
+
+.Based_role_section_mobile {
+  display: none;
+  padding-top: 70px;
+}
+
+.see_more {
+  color: #206ee9;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* #f4f4f6; */
+.hire_faq_row {
+  background-color: #f4f4f6;
+  border-radius: 15px;
+}
+
+.hire_details_faq {
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Charm', cursive;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 0px;
+
+}
+
+.accordion_title {
+  margin-right: 50px;
+  font-size: 14px;
+}
+
+.accordion_div {
+  margin-right: 30px;
+}
+
+.based_hire_section {
+  padding-bottom: 70px;
+}
+
+.hire_based_role_div {
+  margin-right: 30px;
+}
+
+.blog_section {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.slick-arrow {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #666 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff !important;
+  border-radius: 50%;
+}
+
+.slick-arrow.slick-prev {
+  left: -45px;
+}
+
+.slick-arrow.slick-next {
+  right: -45px;
+}
+.more_skills{
+  display: block;
+  padding-top: 15px;
+}
+.hire_content_image{
+  width: 60%;
+  height: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+  .slick-arrow {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 429px) {
+  .hire_details_banner_section {
+    display: none;
+  }
+
+  .hire_details_banner_mobile {
+    display: block;
+  }
+
+  .hire_blog_inputs {
+    width: 100%;
+    height: 48px;
+  }
+
+  .hire_blog_developer_btn {
+    width: 100%;
+    height: 48px;
+    margin-top: 10px;
+  } 
+
+  .technology_section {
+    display: none;
+  }
+
+  .technology_section_mobile {
+    display: block;
+
+  }
+
+  .Based_role_section {
+    display: none;
+  }
+
+  .Based_role_section_mobile {
+    display: block;
+    padding-top: 40px;
+  }
+
+  .technology_div {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 30px;
+    grid-column-gap: 10px;
+  }
+
+  .technology_text {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .technology_colam {
+    width: 90%;
+
+  }
+
+  .Based_role_div {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 15px;
+    grid-row-gap: 30px;
+  }
+
+  .hire_faq_div {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .hire_details_faq {
+    font-size: 22px;
+  }
+
+  .hire_blog_inputs {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
+  .hire_blog_developer_btn {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+
+  }
+  .hire_content_image{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 430px) and (max-width: 575px) {
+  .hire_details_banner_section {
+    display: none;
+  }
+
+  .hire_details_banner_mobile {
+    display: block;
+  }
+
+  .hire_blog_inputs {
+    width: 100%;
+    height: 48px;
+  }
+
+  .hire_blog_developer_btn {
+    width: 100%;
+    height: 48px;
+    margin-top: 10px;
+  }
+
+  .technology_section {
+    display: none;
+  }
+
+  .technology_section_mobile {
+    display: block;
+
+  }
+
+  .Based_role_section {
+    display: none;
+  }
+
+  .Based_role_section_mobile {
+    display: block;
+  }
+
+  .technology_div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 30px;
+    margin-left: 10px;
+  }
+
+  .technology_text {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .technology_colam {
+    width: 90%;
+  }
+
+  .based_text {
+    margin-left: 0px;
+  }
+
+  .Based_role_div {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 25px;
+    grid-row-gap: 30px;
+  }
+
+  .hire_faq_div {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .hire_details_faq {
+    font-size: 22px;
+  }
+
+  .hire_blog_inputs {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
+  .hire_blog_developer_btn {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+
+  }
+  .hire_content_image{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  /* .technology_section{
+    display: none;
+  }
+  .technology_section_mobile{
+    display: block;
+    
+  } */
+  .hire_details_banner_section {
+    display: none;
+  }
+
+  .hire_details_banner_mobile {
+    display: block;
+  }
+
+  .hire_blog_inputs {
+    width: 100%;
+    height: 48px;
+  }
+
+  .hire_blog_developer_btn {
+    width: 100%;
+    height: 48px;
+    margin-top: 10px;
+  }
+
+  .technology_div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 30px;
+
+  }
+
+  .technology_text {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .technology_colam {
+    width: 90%;
+  }
+
+  .based_text {
+    margin-left: 0px;
+  }
+
+  .Based_role_div {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 25px;
+    grid-row-gap: 30px;
+  }
+
+  .hire_blog_inputs {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
+  .hire_blog_developer_btn {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width:990px) {
+  .hire_details_banner_section {
+    display: none;
+  }
+
+  .hire_details_banner_mobile {
+    display: block;
+  }
+
+  .hire_blog_inputs {
+    width: 100%;
+    height: 48px;
+  }
+
+  .hire_blog_developer_btn {
+    width: 100%;
+    height: 48px;
+    margin-top: 10px;
+  }
+
+  .technology_div {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-row-gap: 30px;
+    margin-left: 10px;
+    grid-column-gap: 10px;
+  }
+
+  .technology_colam {
+    width: 90%;
+  }
+
+  .technology_colam {
+    width: 90%;
+  }
+
+  .technology_text {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .Based_role_div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 25px;
+    grid-row-gap: 30px;
+  }
+
+  .hire_blog_inputs {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
+  .hire_blog_developer_btn {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+
+  }
+  .hire_content_image{
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:991px) and (max-width:1221px) {
+  .technology_div {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-row-gap: 30px;
+   
+  }
+
+  .hire_blog_inputs {
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
+  .hire_blog_developer_btn {
+    margin-top: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+
+  }
+}
+
+@media only screen and (min-width:1222px) and (max-width:3000px) {
+  .technology_section {
+    margin-right: 30px;
+  }
+
+  .Based_role_section {
+    margin-right: 30px;
+  }
+
+}

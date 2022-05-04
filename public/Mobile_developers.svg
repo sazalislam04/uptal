@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1852" data-name="Rectangle 1852" width="100" height="100" transform="translate(-15.891 15)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_5489" data-name="Group 5489" transform="translate(15.891 -15)" clip-path="url(#clip-path)">
+    <g id="iOS_Swift" data-name="iOS Swift" transform="translate(-15.891 15)">
+      <rect id="Rectangle_1688" data-name="Rectangle 1688" width="100" height="100" fill="none"/>
+      <path id="_24px_14_" data-name="24px(14)" d="M47.857,1.036,12.143,1A7.164,7.164,0,0,0,5,8.143V72.429a7.164,7.164,0,0,0,7.143,7.143H47.857A7.164,7.164,0,0,0,55,72.429V8.143A7.133,7.133,0,0,0,47.857,1.036Zm0,64.25H12.143v-50H47.857Z" transform="translate(20 9.714)" fill="#41bfad"/>
+    </g>
+  </g>
+</svg>

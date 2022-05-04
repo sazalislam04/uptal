@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=IBM+Plex+Sans:wght@500&family=Open+Sans:wght@400;700&family=Poppins:wght@300;500&display=swap');
+.blog-title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.blog-content{
+    font-size: 16px;
+    line-height: 25px;
+    color: #3c4758;
+    font-weight: 500;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.card-colam{
+    cursor: pointer;
+    overflow: hidden; 
+
+}
+.card-colam a {
+    text-decoration: none;
+}
+.cards-img{
+    height: 200px;
+    width: 100%;
+}
+.card-colam:hover .blog-title{
+    color: #00cc83;
+    transition: 0.5s ease-in-out;
+}
+.card-colam:hover .cards-img{
+    transform: scaleX(1.01);
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+}
+.date_text{
+    font-size: 16px;
+    line-height: 25px;
+    color: #3c4758;
+    font-weight: 500;
+    font-family: 'Charm', cursive;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.category_text{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.view_more_blog_btn{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: #00cc83;
+}
+.filter_items{
+    overflow: auto;
+    white-space: nowrap;
+}
+.filter_bar{
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 1;
+    padding-top: 20px;
+}
