@@ -646,7 +646,7 @@ export default function HireDevelopers({ post, hire, question, blogs }, { }) {
         <Navbartwo />
         <Meta
           title={`Top 10 interview question guide for ${skill} Developers Jobs in 2022 | Uptal.org`}
-          image='/interview-slug.png'
+          image='https://uptal.org/interview-slug.png'
           description={`Find ${skill} developers with Uptal in 4 easy steps. Fill in your basic details. Get verified . Receive job offers and start your dream career`}
         />
         <div className='hire_details_banner_section'>

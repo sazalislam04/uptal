@@ -42,9 +42,10 @@ export default function Blog({ blogs }) {
     <div className="mx-auto">
       <Navbar />
       <Meta
-            title="Dummy Title"
-            description="Dummy Description"
-            image="AWS.svg"
+            title="Uptal - Matching remote developers with global startups"
+            description="Hire verified remote developers from Uptal | Access future ready talent cloud and find developers with verified technical skills, matched in your timezone."
+            image="https://uptal.org/home-page.png"
+        
         />
 
       <Filteritem />

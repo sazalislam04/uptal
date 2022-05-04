@@ -204,7 +204,7 @@ export default function HireDevelopers({ post, hire, blogs }) {
         <Meta
             title={`Hire remote ${skill} developers in 2022 | Uptal.org`}
             description={`Hire ${skill} developers with Uptal in 4 easy steps. Create your employer profile. Get access to vetted talent cloud. Engage with talents and hire 4x faster.`}
-            image='/hire-cms-slug.png'
+            image='https://uptal.org/hire-cms-slug.png'
         />
         <section className='hire_details_banner_section'>
           <div className='hire_details_banner mx-auto' style={{

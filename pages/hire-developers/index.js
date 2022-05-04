@@ -41,7 +41,7 @@ export default function Intro({ hire }) {
       <Meta
             title="Uptal - Matching remote developers with global startups"
             description="Hire verified remote developers from Uptal | Access future ready talent cloud and find developers with verified technical skills, matched in your timezone."
-            image="/hire-page.png"
+            image="https://uptal.org/hire-page.png"
         />
       <section>
         <div className="container">

@@ -205,7 +205,7 @@ export default function HireDevelopers({ post, blogs }) {
         <Navbartwo />
         <Meta
              title={`Complete resume guide for ${skill} Developers Jobs in 2022 | Uptal.org`}
-             image='/resume-slug.png'
+             image='https://uptal.org/resume-slug.png'
              description={`Find ${skill} developers with Uptal in 4 easy steps. Fill in your basic details. Get verified . Receive job offers and start your dream career`}
            />
         <div className='hire_details_banner_section'>

@@ -156,9 +156,9 @@ export default function Post({ post, recentBlog }) {
       <Row className="mx-auto">
         <IndicatorNavbar />
         <Meta
-          title={title}
-          description={meta}
-          image={'https:' + thumbnail.fields.file.url}
+            title="Uptal - Matching remote developers with global startups"
+            description="Hire verified remote developers from Uptal | Access future ready talent cloud and find developers with verified technical skills, matched in your timezone."
+            image="https://uptal.org/home-page.png"
         />
         <div className=' details_banner'>
           <Row className="container mx-auto banner_row d-md-flex d-sm-flex justify-content-md-between justify-content-sm-between">

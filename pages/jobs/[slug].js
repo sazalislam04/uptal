@@ -201,7 +201,7 @@ export default function HireDevelopers({ post, hire, blogs , job}) {
         <Navbartwo />
         <Meta
              title={`Find Remote ${skill} Developers Jobs in 2022 | Uptal.org`}
-             image='/job-cms-slug.png'
+             image='https://uptal.org/job-cms-slug.png'
              description={`Find ${skill} developers with Uptal in 4 easy steps. Fill in your basic details. Get verified . Receive job offers and start your dream career`}
            />
         <section className='hire_details_banner_section'>
