@@ -64,46 +64,40 @@ export default function Home() {
           <Row className="container-fluid mx-auto justify-content-around">
             <Col lg={2} sm={4} md={3} xs={6}>
               <img
-                src="/paypal-color-v1.svg"
+                src="/airtable.svg"
                 alt="Picture of the author"
                 className="brand_img paypal_img"
               />
             </Col>
             <Col lg={2} sm={4} md={3} xs={6}>
               <img
-                src="/walmart-color-v1.svg"
+                src="/peloton.svg"
                 alt="Picture of the author"
                 className="brand_img"
               />
             </Col>
             <Col lg={2} sm={4} md={3} xs={6}>
               <img
-                src="/amazon-color-v1.svg"
+                src="/doordash.svg"
                 alt="Picture of the author"
                 className="brand_img"
               />
             </Col>
             <Col lg={2} sm={4} md={3} xs={6}>
               <img
-                src="/intuit-color-v1.svg"
+                src="/rippling.svg"
                 alt="Picture of the author"
                 className="brand_img"
               />
             </Col>
             <Col lg={2} sm={4} md={3} xs={6}>
               <img
-                src="/mircrosoft.jpg"
+                src="/yelp.svg"
                 alt="Picture of the author"
                 className="brand_img"
               />
             </Col>
-            <Col lg={2} sm={4} md={3} xs={6}>
-              <img
-                src="/barclays-color-v1.svg"
-                alt="Picture of the author"
-                className="brand_img"
-              />
-            </Col>
+           
           </Row>
         </div>
         <Homeslide />

@@ -55,7 +55,7 @@ export default function Footer() {
                                 <a className="foter_link fw-bold">Customers</a>
                                 <Link href="/hire-developers"><a className="foter_link ">Hire Developers</a></Link>
                                 <a className="foter_link ">Book a Call</a>
-                                <a className="foter_link ">Hire for Specific Skills</a>
+                                
                                 <a className="foter_link ">Customer Reviews</a>
                                 <a className="foter_link ">How to Hire</a>
                             </Col>

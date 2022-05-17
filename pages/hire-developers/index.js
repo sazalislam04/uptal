@@ -62,7 +62,7 @@ export default function Intro({ hire }) {
             </Col>
             <Col className="text-end" lg={6} md={6} sm={10}>
               <img
-                src="/employe-bannerimg.jpg"
+                src="/banner4.jpg"
                 alt="Picture of the author"
                 className="employe_banner_img"
               />
@@ -112,28 +112,28 @@ export default function Intro({ hire }) {
           <Row>
             <Col xxl={2} xl={2} lg={2} md={4} sm={3} xs={4}>
               <img
-                src="/mircrosoft.jpg"
+                src="/airtable.svg"
                 alt="Picture of the author"
                 className="employe_brand_img"
               />
             </Col>
             <Col xxl={2} xl={2} lg={2} md={4} sm={3} xs={4}>
               <img
-                src="/paypal-color-v1.svg"
+                src="/peloton.svg"
                 alt="Picture of the author"
                 className="employe_brand_img"
               />
             </Col>
             <Col xxl={2} xl={2} lg={2} md={4} sm={3} xs={4}>
               <img
-                src="/walmart-color-v1.svg"
+                src="/doordash.svg"
                 alt="Picture of the author"
                 className="employe_brand_img"
               />
             </Col>
             <Col xxl={2} xl={2} lg={2} md={4} sm={3} xs={4}>
               <img
-                src="/intuit-color-v1.svg"
+                src="/rippling.svg"
                 alt="Picture of the author"
                 className="employe_brand_img"
               />
@@ -141,18 +141,12 @@ export default function Intro({ hire }) {
 
             <Col xxl={2} xl={2} lg={2} md={4} sm={3} xs={4}>
               <img
-                src="/barclays-color-v1.svg"
+                src="/yelp.svg"
                 alt="Picture of the author"
                 className="employe_brand_img"
               />
             </Col>
-            <Col xxl={2} xl={2} lg={2} md={4} sm={3} xs={4}>
-              <img
-                src="/amazon-color-v1.svg"
-                alt="Picture of the author"
-                className="employe_brand_img"
-              />
-            </Col>
+        
           </Row>
 
         </div>

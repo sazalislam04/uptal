@@ -43,10 +43,13 @@ export default function Applyjob({job}) {
         <div className="container">
           <Row className="container-fluid justify-content-xl-evenly justify-content-lg-evenly justify-content-sm-start justify-content-xs-start  mx-auto employe_banner_section mt-4 gy-3">
             <Col  lg={6} md={6} sm={12} xs={12}>
-              <p className="employe_title">Find remote developer jobs with fast growing startups.</p>
-              <p className="employe_text ">Get high paying jobs with global startups - matched to your timezone.</p>
+              <p className="employe_title">Find remote developer jobs.</p>
+              <p className="employe_text ">Get high paying jobs with global tech startups - matched to your timezone.</p>
                <div className="anchor_talkbtn ">
-                <button className="talk_btn">Apply Now</button>
+               <a target="blank" href='https://developer.uptal.org/'><button className="talk_btn"><div onClick={()=>{
+                mixpanel.init('b7865fb165953c731ca885057e034237', {ignore_dnt: true}); 
+                mixpanel.track('website-apply-now-click');
+              }}>Apply now</div></button></a>
                 <p className="pt-2 pc_looking_anchor">Looking to Hire instead?<Link href="/hire-developers"><a className="looking_anchor ms-2">Hire Developers</a></Link></p>
 
                 <p className="pt-2 mobile_looking_anchor">Looking to Hire instead? <br /> <Link href="/hire-developers"><a className="looking_anchor">Hire Developers</a></Link></p>
@@ -54,7 +57,7 @@ export default function Applyjob({job}) {
             </Col>
             <Col className="text-end" lg={6} md={6} sm={12}>
               <img
-                src="/employe-bannerimg.jpg"
+                src="/banner2.png"
                 alt="Picture of the author"
                 className="employe_banner_img"
               />
@@ -104,28 +107,28 @@ export default function Applyjob({job}) {
           <Row>
             <Col xxl={2} xl={2} lg={2} md={4} sm={3} xs={4}>
               <img
-                src="/mircrosoft.jpg"
+                src="/airtable.svg"
                 alt="Picture of the author"
                 className="employe_brand_img"
               />
             </Col>
             <Col xxl={2} xl={2} lg={2} md={4} sm={3} xs={4}>
               <img
-                src="/paypal-color-v1.svg"
+                src="/peloton.svg"
                 alt="Picture of the author"
                 className="employe_brand_img"
               />
             </Col>
             <Col xxl={2} xl={2} lg={2} md={4} sm={3} xs={4}>
               <img
-                src="/walmart-color-v1.svg"
+                src="/doordash.svg"
                 alt="Picture of the author"
                 className="employe_brand_img"
               />
             </Col>
             <Col xxl={2} xl={2} lg={2} md={4} sm={3} xs={4}>
               <img
-                src="/intuit-color-v1.svg"
+                src="/rippling.svg"
                 alt="Picture of the author"
                 className="employe_brand_img"
               />
@@ -133,18 +136,12 @@ export default function Applyjob({job}) {
 
             <Col xxl={2} xl={2} lg={2} md={4} sm={3} xs={4}>
               <img
-                src="/barclays-color-v1.svg"
+                src="/yelp.svg"
                 alt="Picture of the author"
                 className="employe_brand_img"
               />
             </Col>
-            <Col xxl={2} xl={2} lg={2} md={4} sm={3} xs={4}>
-              <img
-                src="/amazon-color-v1.svg"
-                alt="Picture of the author"
-                className="employe_brand_img"
-              />
-            </Col>
+            
           </Row>
         </div>
       </section>
@@ -301,7 +298,7 @@ export default function Applyjob({job}) {
                     <Row className="justify-content-lg-between justify-content-md-around">
                       <hr className='horizontal_line' />
                       <Col lg={8} md={8} sm={12}>
-                        <p className='join_text'>Access a pre-screened pool of remote talent, shortlisted for you by specialized recruiters who help you select the best talent based on your business needs.</p>
+                        <p className='join_text'>Get matched with global tech startups. Create your profile and get your dream job.</p>
                       </Col>
                       <Col lg={3} md={3} sm={12}>
                         <a target="blank" href='https://developer.uptal.org/'><button className='talent_btn'><div onClick={()=>{
