@@ -65,7 +65,7 @@ export default function Applyjob({job}) {
           </Row>
         </div>
       </section>
-
+      {/* abc */}
       <section className="talent_section">
         <div className="container mx-auto ">
           <p className="talent_title">Start your remote developer career in these fields</p>
