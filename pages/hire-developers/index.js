@@ -39,7 +39,7 @@ export default function Intro({ hire }) {
     <div className="template_section" style={{ width: "100%" }}>
       <Navbartwo />
       <Meta
-            title="Uptal - Matching remote developers with global startups"
+            title="Uptal - Matching remote developers with startups"
             description="Hire verified remote developers from Uptal | Access future ready talent cloud and find developers with verified technical skills, matched in your timezone."
             image="https://uptal.org/hire-page.png"
         />
