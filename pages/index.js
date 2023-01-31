@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div className="homesection" style={{ width: "100%", backgroundColor: "#f4f4f6" }}>
       <Meta
-            title="Uptal - Matching remote developers with global startups"
+            title="Uptal - Matching remote developers with startups"
             description="Hire verified remote developers from Uptal | Access future ready talent cloud and find developers with verified technical skills, matched in your timezone."
             image="https://uptal.org/home-page.png"
         />
