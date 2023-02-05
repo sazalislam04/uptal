@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Charm&family=IBM+Plex+Sans:wght@500&family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Charm&family=IBM+Plex+Sans:wght@500&family=Open+Sans:wght@400;700&display=swap");
 
 .Header_Row {
   display: flex;
@@ -13,9 +13,9 @@
   border: 1px solid #6c6f8d;
   color: #6c6f8d;
   font-size: 18px;
-  font-family: 'Charm', cursive;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Charm", cursive;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -32,11 +32,11 @@
   font-weight: 700;
   margin-top: 0px;
   margin-bottom: 40px;
-  font-family: 'Charm', cursive;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Charm", cursive;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   z-index: 1;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .businessbtn {
@@ -126,7 +126,6 @@
 .home {
   background-color: #f4f4f6;
   width: 100%;
-
 }
 
 .cardcontainer {
@@ -153,9 +152,9 @@
 .home_blog_btn {
   font-size: 17px;
   color: #aaacbc;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
   text-decoration: none;
   display: block;
@@ -185,10 +184,10 @@
   font-weight: bold;
   margin-top: 10px;
   color: #000000;
-  font-family: 'Charm', cursive;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Charm", cursive;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .homeslide {
@@ -200,9 +199,9 @@
   border-radius: 5px;
   font-size: 17px;
   color: #aaacbc;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
   text-decoration: none;
   display: block;
@@ -211,8 +210,6 @@
   padding: 10px 0px 10px 0px;
   margin-bottom: 10px;
 }
-
-
 
 @media only screen and (min-width: 200px) and (max-width: 321px) {
   .website_title {
@@ -228,7 +225,6 @@
 
   .content-colam {
     margin-bottom: 40px;
-
   }
 
   .maintitle {
@@ -237,9 +233,9 @@
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 40px;
-    font-family: 'Charm', cursive;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Charm", cursive;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     z-index: 1;
   }
 
@@ -260,22 +256,20 @@
 }
 
 @media only screen and (min-width: 322px) and (max-width: 429px) {
-
   .maintitle {
     color: #2c3454;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 20px;
     margin-top: 40px;
-    font-family: 'Charm', cursive;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Charm", cursive;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     line-height: 40px;
   }
 
   .content-colam {
     margin-bottom: 40px;
-
   }
 
   .Header_Row {
@@ -324,13 +318,11 @@
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 20px;
-    font-family: 'Charm', cursive;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Charm", cursive;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     line-height: 40px;
   }
-
-
 
   .content-colam {
     margin-bottom: 40px;
@@ -361,7 +353,6 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 788px) {
-
   /* .Header_Row{
     display: flex;
     flex-direction: column;
@@ -382,7 +373,6 @@
   .home {
     /* background: rgb(225, 223, 223); */
     background-color: #f4f4f6;
-
   }
 
   .home_blog_btn {
@@ -406,11 +396,10 @@
   }
 }
 
-@media only screen and (min-width: 788px) and (max-width:1000px) {
+@media only screen and (min-width: 788px) and (max-width: 1000px) {
   .home {
     /* background: rgb(225, 223, 223); */
     background-color: #f4f4f6;
-
   }
 
   .content-colam {
@@ -433,7 +422,7 @@
   }
 }
 
-@media only screen and (min-width:1001px) and (max-width:1400px) {
+@media only screen and (min-width: 1001px) and (max-width: 1400px) {
   .home.row .maintitle {
     margin-top: 0;
   }
@@ -446,12 +435,12 @@
   .home .home_brand_section {
     padding-top: 20px;
   }
-  .home .maintitle{
+  .home .maintitle {
     margin-bottom: 25px;
   }
 }
 
-@media only screen and (min-width:1001px) and (max-width:1540px) {
+@media only screen and (min-width: 1001px) and (max-width: 1540px) {
   .website_title {
     margin-left: 38px;
     /* margin-left: 120px; */
@@ -477,11 +466,10 @@
     left: 0;
     width: 100%;
   }
-
 }
 
-@media only screen and (min-width:1450px) {
-  .home_content_wrapper{
+@media only screen and (min-width: 1450px) {
+  .home_content_wrapper {
     margin-top: 100px;
     min-height: calc(100vh - 270px);
   }
@@ -493,7 +481,7 @@
   } */
 }
 
-@media only screen and (min-width:1541px) and (max-width:3000px) {
+@media only screen and (min-width: 1541px) and (max-width: 3000px) {
   .website_title {
     margin-right: 38px;
     /* margin-left: 120px; */
@@ -505,7 +493,6 @@
    padding-bottom: 150px;
  } */
   .homesection {
-
     height: 100vh;
   }
 
@@ -520,4 +507,10 @@
   .home_blog_btn {
     margin-left: 100px;
   }
+}
+.rating {
+  font-size: 13px;
+}
+.img-container img {
+  border-radius: 50%;
 }
