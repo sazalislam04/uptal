@@ -45,7 +45,7 @@ const data = [
   },
   {
     id: "5",
-    title: "Python Scientists",
+    title: "Python Developers",
     rating: "4.8/5 average rating",
     img_1:
       "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
@@ -56,7 +56,7 @@ const data = [
   },
   {
     id: "6",
-    title: "JavaScript Scientists",
+    title: "JavaScript Developers",
     rating: "4.8/5 average rating",
     img_1:
       "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
